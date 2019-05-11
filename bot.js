@@ -109,7 +109,7 @@ var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 
 var oyun = [
         "!yardım",
-        "!yardım Yeni özellikler",
+        "BETA",
         "NARDONA YAZILIM  "
     ];
 
@@ -117,7 +117,7 @@ var oyun = [
 
         var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
-        client.user.setGame(oyun[random], "https://www.twitch.tv/hiaxy");
+        client.user.setGame(oyun[random], "https://www.twitch.tv/nardona18");
         }, 2 * 2500);
 
 
